@@ -4,7 +4,7 @@ import { Provider } from "react-redux";
 import "./App.css";
 import store from "./store";
 // import CakeContainer from "./components/CakeContainer";
-// import HooksCakeContainer from "./components/HooksCakeContainer";
+import HooksCakeContainer from "./components/HooksCakeContainer";
 // import IceCreamContainer from "./components/IceCreamContainer";
 // import NewCakeContainer from "./components/NewCakeContainer";
 // import ItemContainer from "./components/ItemContainer";
@@ -15,11 +15,11 @@ function App() {
     <Provider store={store}>
       <div className="App">
         {/* <CakeContainer></CakeContainer> */}
-        {/* <HooksCakeContainer></HooksCakeContainer> */}
+        <HooksCakeContainer></HooksCakeContainer>
         {/* <IceCreamContainer></IceCreamContainer> */}
         {/* <NewCakeContainer></NewCakeContainer> */}
         {/* <ItemContainer cake></ItemContainer> */}
-        <UserContainer></UserContainer>
+        {/* <UserContainer></UserContainer> */}
       </div>
     </Provider>
   );
